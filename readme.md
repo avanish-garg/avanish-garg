@@ -44,7 +44,7 @@ When I'm not coding, you'll find me exploring tech trends or brainstorming the n
 ---
 
 ## 🐍 Contribution Snake Game  
-![Snake animation](https://github.com/avanish-garg/avanish-garg/blob/output/github-contribution-grid-snake.svg)  
+![Snake animation](https://avanish-garg.github.io/snk/github-contribution-grid-snake.svg)
 
 ---
 
