@@ -1,4 +1,4 @@
-# Hi there, I'm Avanish Garg 👋  
+# Hi there, I'm Avanish Garg
 
 ## About Me  
 I'm a Computer Science Engineering student (B.Tech, 2022–26) at Acropolis Institute of Technology & Research, Indore.  
@@ -7,13 +7,20 @@ My core interests lie at the intersection of blockchain and machine learning. I 
 
 ---
 
-## Tech Stack  
-- Languages: Python, C++, JavaScript  
-- Frameworks & Libraries: Node.js, Express.js, React, scikit-learn  
-- Databases: MongoDB, MySQL  
-- Tools: Git, GitHub, REST APIs, Power BI  
-- Blockchain: Solidity, Aptos  
-- Others: SQL, EDA, Azure (basic)
+## 🛠️ Tech Stack  
+<p>  
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />  
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />  
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />  
+<img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />  
+<img src="https://img.shields.io/badge/Express.js-404d59?style=for-the-badge&logo=express&logoColor=61DAFB" />  
+<img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" />  
+<img src="https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white" />  
+<img src="https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black" />  
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />  
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />  
+<img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />  
+</p>  
 
 ---
 
@@ -58,11 +65,10 @@ Role: Full Stack Developer
 
 ---
 
-## Contact  
-- 📧 Email: [gargavanish@gmail.com](mailto:gargavanish@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/avanish-garg-90562b255](https://www.linkedin.com/in/avanish-garg-90562b255/)  
-- 💻 GitHub: [github.com/avanish-garg](https://github.com/avanish-garg)
-
+## 📫 Connect With Me  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avanish-garg-90562b255/)  
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gargavanish@gmail.com)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/avanish-garg)  
 ---
 
 _Thanks for visiting! Feel free to connect or collaborate._  
