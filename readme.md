@@ -1,10 +1,5 @@
 # Hi there, I'm Avanish Garg
 
-## About Me  
-I'm a Computer Science Engineering student (B.Tech, 2022–26) at Acropolis Institute of Technology & Research, Indore.  
-Currently working as a Software Developer at Syvora Pvt. Ltd., where I help build Blockchain & Web3-driven solutions.  
-My core interests lie at the intersection of blockchain and machine learning. I enjoy creating efficient, scalable solutions and collaborating with developer communities.  
-
 ---
 
 ## 🛠️ Tech Stack  
