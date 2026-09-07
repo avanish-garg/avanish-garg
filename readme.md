@@ -1,84 +1,48 @@
-<div align="center">
+# Avanish Garg
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=220&section=header&text=Avanish%20Garg&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%E2%80%A2%20Backend%20%26%20AI%20Infra&descAlignY=55&descAlign=50&descSize=20" width="100%"/>
+**Applied AI Engineer** · IST (UTC+5:30) · Open to remote roles
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8B9EFF&center=true&vCenter=true&width=650&lines=3%2B+Years+Building+Production+Backend+Systems;Currently+Contributing+to+Apache+Airflow;Open+to+Remote+Opportunities+Worldwide" alt="Typing SVG" />
+[LinkedIn](https://www.linkedin.com/in/avanish-garg-90562b255/) · [Email](mailto:gargavanish@gmail.com) · [GitHub](https://github.com/avanish-garg) · [X](https://x.com/GARGAVANISH)
 
-<p>
-<a href="https://www.linkedin.com/in/avanish-garg-90562b255/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:gargavanish@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/avanish-garg"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+---
 
-<img src="https://komarev.com/ghpvc/?username=avanish-garg&color=667eea&style=for-the-badge&label=Profile+Views" />
+## Summary
 
-</div>
+AI Engineer with 3+ years building and deploying production AI/ML systems — LLM fine-tuning, RAG,
+agentic pipelines, and model evaluation. Track record optimizing model quality, latency, and
+inference cost at scale, backed by open-source contributions to major AI/ML repositories. Focused
+on turning research techniques into reliable, reusable AI infrastructure.
 
-<br/>
+## Core Skills
 
-## 🔭 Currently
+- **AI/ML:** LLMs, Transformers, RAG, Fine-Tuning, LoRA, Quantization, Embeddings, NLP, Computer Vision, VLMs, Prompt Engineering, AI Agents
+- **Languages:** Python, TypeScript, Go
+- **Cloud & DevOps:** AWS, Kubernetes, Docker, Terraform, GitHub Actions, Linux
+- **Frameworks & Tools:** PostgreSQL, SQLAlchemy, Redis, Git
 
-- 🛠️ Contributing to [Apache Airflow](https://github.com/apache/airflow) — a security fix (ReDoS in the Spark provider), an async triggerer crash, and input validation in Airflow core
-- 📈 Building a portfolio of contributions across backend, tooling/SDKs, full-stack, and AI-infra open-source projects
-- 🌍 Open to remote software engineering roles
+## Experience
 
-<br/>
+**Applied AI Engineer, Syvora** — Jan 2024 – Present
+- Developed document-processing workflows combining OCR, VLM inference, validation, and structured extraction, reducing manual processing time by 80%.
+- Built AI services integrating LLMs, RAG, PostgreSQL, Redis, and REST APIs, handling 100K+ requests/day across production workflows.
+- Implemented model routing, caching, batching, and provider fallbacks, reducing AI infrastructure costs by 61% while maintaining 95%+ task success.
+- Deployed AI workloads on Kubernetes, implementing GPU scheduling, autoscaling, health checks, rolling deployments, and model version management.
 
-## 🛠️ Tech Stack
+**GenAI Engineer, Syvora** — Jul 2023 – Jan 2024
+- Optimized Transformer architectures across attention, model size, objectives, and data composition, improving F1 by 12% and reducing inference latency by 31%.
+- Architected hybrid RAG pipelines combining dense retrieval, BM25, metadata filtering, query expansion, and reranking, improving Recall@10 from 60% to 85%.
+- Built LoRA + quantization fine-tuning pipelines for 7B–13B LLMs, reducing trainable parameters by 99%+ while improving domain-task performance by 12%.
+- Implemented defense-in-depth for LLM applications using prompt-injection detection, retrieval isolation, tool authorization, output validation, and policy checks.
 
-<div align="center">
+## Open Source Contributions
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,go,nodejs,express,react,fastapi,mongodb,solidity,git&theme=dark" />
+- **Apache Airflow** — extended the listener architecture with two new hooks (DAG pause-state changes, task-instance retry events) across the REST API, CLI, and task-execution paths, with tests and documentation. [PR #72378](https://github.com/apache/airflow/pull/72378) · [PR #72424](https://github.com/apache/airflow/pull/72424)
+- **etcd** — added a `--from-key` flag to `etcdctl watch` (parity with `get`/`del`) and `ResumeMutex` to the `concurrency` package (parity with the existing `ResumeElection`), each verified with integration/e2e tests against a live cluster. [PR #22383](https://github.com/etcd-io/etcd/pull/22383) · [PR #22384](https://github.com/etcd-io/etcd/pull/22384)
+- **Lago** — implemented lifecycle webhooks for the `Coupon` and `AddOn` resources (parity with `Plan`/`BillableMetric`), with full RSpec coverage. [PR #6306](https://github.com/getlago/lago-api/pull/6306) · [PR #6308](https://github.com/getlago/lago-api/pull/6308)
 
-</div>
+## Recent Pull Requests
 
-<br/>
-
-## 💼 Selected Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏠 [Rentora (Aptorent)](https://github.com/avanish-garg/len-den)
-Decentralized rental platform built on the Aptos blockchain.
-
-**Role:** Backend & Blockchain Developer
-
-</td>
-<td width="50%" valign="top">
-
-### 🏥 MindMedix
-Healthcare ML project analyzing 50,000+ patient records for preventive-care insights.
-
-**Role:** Data Scientist
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎓 EduTracker
-MERN-stack student performance tracker deployed for academic use.
-
-**Role:** Full-Stack Developer
-
-</td>
-<td width="50%" valign="top">
-
-### 🪶 [Apache Airflow](https://github.com/apache/airflow) <sub>(in progress)</sub>
-Open-source contributions to the widely-used workflow orchestration platform.
-
-**Role:** Contributor
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 🔄 Recent Pull Requests
-<sub>Auto-updated by a scheduled GitHub Action &mdash; see <a href="./.github/workflows/update-readme.yml">workflow</a></sub>
+_Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
 - **[getlago/lago-api]** [feat(add_ons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _open_
@@ -88,59 +52,13 @@ Open-source contributions to the widely-used workflow orchestration platform.
 - **[apache/airflow]** [Add on_task_instance_up_for_retry listener hook](https://github.com/apache/airflow/pull/72424) &mdash; _open_
 - **[apache/airflow]** [Add on_dag_pause_status_change listener hook](https://github.com/apache/airflow/pull/72378) &mdash; _open_
 
-_Last updated 2026-09-07 16:17 UTC._
+_Last updated 2026-09-07 18:21 UTC._
 <!-- ACTIVITY:END -->
 
-<br/>
+## Writing
 
-## 📊 GitHub Stats
+**[The Curious Crunch](https://avanish-garg.hashnode.dev)** — an ongoing technical blog series reverse-engineering the system infrastructure behind Web3, AI, and DevOps.
 
-<div align="center">
+## Education
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=avanish-garg&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=avanish-garg&layout=compact&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=avanish-garg&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<br/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-trophies.vercel.app/?username=avanish-garg&theme=tokyonight&no-frame=true&row=1&column=7" />
-
-</div>
-
-<br/>
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<img src="https://avanish-garg.github.io/snk/github-contribution-grid-snake.svg" width="100%" />
-
-</div>
-
-<br/>
-
-## 🎖️ Achievements & Certifications
-
-- 🏅 Winner/Finalist in 10+ hackathons (Unfold, e-Yantra, AceHack, Civil War, and others)
-- 🎤 Sponsorship Lead, TEDx Vijaynagar (₹1.5L raised)
-- 🔬 Tech Team, ACROSET 2024 (IEEE International Conference)
-- 🧩 Ex-Secretary, Acropolis Blockchain Club & CSI-AITR
-- 🥇 Olympiad Gold Medalist (top 2% nationally)
-- 📜 Certifications: ML Specialization (Stanford University) · Compiler Design (NPTEL, IIT-KGP) · Cybersecurity (Cisco Networking Academy) · ML (Cornell University, ongoing)
-
-<br/>
-
-<div align="center">
-
-_Thanks for visiting — always happy to talk backend systems, infra, or open source._
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=100&section=footer" width="100%"/>
-
-</div>
+Acropolis Institute of Technology & Research — B.Tech, Computer Science
