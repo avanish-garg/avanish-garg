@@ -77,6 +77,22 @@ Open-source contributions to the widely-used workflow orchestration platform.
 
 <br/>
 
+## 🔄 Recent Pull Requests
+<sub>Auto-updated by a scheduled GitHub Action &mdash; see <a href="./.github/workflows/update-readme.yml">workflow</a></sub>
+
+<!-- ACTIVITY:START -->
+- **[getlago/lago-api]** [feat(add_ons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _open_
+- **[getlago/lago-api]** [feat(coupons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _open_
+- **[etcd-io/etcd]** [client/v3: add ResumeMutex to concurrency package](https://github.com/etcd-io/etcd/pull/22384) &mdash; _open_
+- **[etcd-io/etcd]** [etcdctl: add --from-key to watch command](https://github.com/etcd-io/etcd/pull/22383) &mdash; _open_
+- **[apache/airflow]** [Add on_task_instance_up_for_retry listener hook](https://github.com/apache/airflow/pull/72424) &mdash; _open_
+- **[apache/airflow]** [Add on_dag_pause_status_change listener hook](https://github.com/apache/airflow/pull/72378) &mdash; _open_
+
+_Last updated 2026-09-07 16:14 UTC._
+<!-- ACTIVITY:END -->
+
+<br/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
