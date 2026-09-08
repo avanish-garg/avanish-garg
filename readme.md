@@ -34,25 +34,19 @@ on turning research techniques into reliable, reusable AI infrastructure.
 - Built LoRA + quantization fine-tuning pipelines for 7B–13B LLMs, reducing trainable parameters by 99%+ while improving domain-task performance by 12%.
 - Implemented defense-in-depth for LLM applications using prompt-injection detection, retrieval isolation, tool authorization, output validation, and policy checks.
 
-## Open Source Contributions
-
-- **Apache Airflow** — extended the listener architecture with two new hooks (DAG pause-state changes, task-instance retry events) across the REST API, CLI, and task-execution paths, with tests and documentation. [PR #72378](https://github.com/apache/airflow/pull/72378) · [PR #72424](https://github.com/apache/airflow/pull/72424)
-- **etcd** — added a `--from-key` flag to `etcdctl watch` (parity with `get`/`del`) and `ResumeMutex` to the `concurrency` package (parity with the existing `ResumeElection`), each verified with integration/e2e tests against a live cluster. [PR #22383](https://github.com/etcd-io/etcd/pull/22383) · [PR #22384](https://github.com/etcd-io/etcd/pull/22384)
-- **Lago** — implemented lifecycle webhooks for the `Coupon` and `AddOn` resources (parity with `Plan`/`BillableMetric`), with full RSpec coverage. [PR #6306](https://github.com/getlago/lago-api/pull/6306) · [PR #6308](https://github.com/getlago/lago-api/pull/6308)
-
 ## Recent Pull Requests
 
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[weaviate/weaviate]** [graphql: add fusionType to Aggregate hybrid search](https://github.com/weaviate/weaviate/pull/12985) &mdash; _open_
+- **[weaviate/weaviate]** [reranker-jinaai/reranker-voyageai: add baseURL config override](https://github.com/weaviate/weaviate/pull/12984) &mdash; _open_
 - **[getlago/lago-api]** [feat(add_ons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _open_
 - **[getlago/lago-api]** [feat(coupons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _open_
 - **[etcd-io/etcd]** [client/v3: add ResumeMutex to concurrency package](https://github.com/etcd-io/etcd/pull/22384) &mdash; _open_
 - **[etcd-io/etcd]** [etcdctl: add --from-key to watch command](https://github.com/etcd-io/etcd/pull/22383) &mdash; _open_
-- **[apache/airflow]** [Add on_task_instance_up_for_retry listener hook](https://github.com/apache/airflow/pull/72424) &mdash; _open_
-- **[apache/airflow]** [Add on_dag_pause_status_change listener hook](https://github.com/apache/airflow/pull/72378) &mdash; _open_
 
-_Last updated 2026-09-08 10:28 UTC._
+_Last updated 2026-09-08 10:50 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing

@@ -15,6 +15,7 @@ TRACKED_REPOS = [
     "apache/airflow",
     "etcd-io/etcd",
     "getlago/lago-api",
+    "weaviate/weaviate",
 ]
 MAX_ITEMS = 6
 START_MARKER = "<!-- ACTIVITY:START -->"
