@@ -52,7 +52,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[apache/airflow]** [Add on_task_instance_up_for_retry listener hook](https://github.com/apache/airflow/pull/72424) &mdash; _open_
 - **[apache/airflow]** [Add on_dag_pause_status_change listener hook](https://github.com/apache/airflow/pull/72378) &mdash; _open_
 
-_Last updated 2026-09-07 18:21 UTC._
+_Last updated 2026-09-08 10:28 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
