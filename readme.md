@@ -39,14 +39,14 @@ on turning research techniques into reliable, reusable AI infrastructure.
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
-- **[weaviate/weaviate]** [graphql: add fusionType to Aggregate hybrid search](https://github.com/weaviate/weaviate/pull/12985) &mdash; _open_
+- **[weaviate/weaviate]** [graphql: add fusionType to Aggregate hybrid search](https://github.com/weaviate/weaviate/pull/12985) &mdash; _closed_
 - **[weaviate/weaviate]** [reranker-jinaai/reranker-voyageai: add baseURL config override](https://github.com/weaviate/weaviate/pull/12984) &mdash; _open_
 - **[getlago/lago-api]** [feat(add_ons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _open_
 - **[getlago/lago-api]** [feat(coupons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _open_
 - **[etcd-io/etcd]** [client/v3: add ResumeMutex to concurrency package](https://github.com/etcd-io/etcd/pull/22384) &mdash; _open_
 - **[etcd-io/etcd]** [etcdctl: add --from-key to watch command](https://github.com/etcd-io/etcd/pull/22383) &mdash; _open_
 
-_Last updated 2026-09-08 10:50 UTC._
+_Last updated 2026-09-09 10:39 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
