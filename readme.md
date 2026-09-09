@@ -28,7 +28,7 @@ on turning research techniques into reliable, reusable AI infrastructure.
 - Implemented model routing, caching, batching, and provider fallbacks, reducing AI infrastructure costs by 61% while maintaining 95%+ task success.
 - Deployed AI workloads on Kubernetes, implementing GPU scheduling, autoscaling, health checks, rolling deployments, and model version management.
 
-**GenAI Engineer, Syvora** — Jul 2023 – Jan 2024
+**GenAI Engineer, NDA** — Jul 2023 – Jan 2024
 - Optimized Transformer architectures across attention, model size, objectives, and data composition, improving F1 by 12% and reducing inference latency by 31%.
 - Architected hybrid RAG pipelines combining dense retrieval, BM25, metadata filtering, query expansion, and reranking, improving Recall@10 from 60% to 85%.
 - Built LoRA + quantization fine-tuning pipelines for 7B–13B LLMs, reducing trainable parameters by 99%+ while improving domain-task performance by 12%.
