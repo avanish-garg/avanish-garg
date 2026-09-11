@@ -46,7 +46,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[etcd-io/etcd]** [client/v3: add ResumeMutex to concurrency package](https://github.com/etcd-io/etcd/pull/22384) &mdash; _open_
 - **[etcd-io/etcd]** [etcdctl: add --from-key to watch command](https://github.com/etcd-io/etcd/pull/22383) &mdash; _open_
 
-_Last updated 2026-09-10 10:27 UTC._
+_Last updated 2026-09-11 10:29 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
