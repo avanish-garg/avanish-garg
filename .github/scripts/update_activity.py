@@ -15,6 +15,7 @@ TRACKED_REPOS = [
     "apache/airflow",
     "etcd-io/etcd",
     "getlago/lago-api",
+    "mlflow/mlflow",
     "weaviate/weaviate",
 ]
 MAX_ITEMS = 6
