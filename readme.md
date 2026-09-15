@@ -19,6 +19,7 @@ on turning research techniques into reliable, reusable AI infrastructure.
 - **Languages:** Python, TypeScript, Go
 - **Cloud & DevOps:** AWS, Kubernetes, Docker, Terraform, GitHub Actions, Linux
 - **Frameworks & Tools:** PostgreSQL, SQLAlchemy, Redis, Git
+- **Web3/Blockchain:** Solidity, Foundry, Hardhat, EIP-712, UUPS Upgradeable Proxies, Gnosis Safe, The Graph, Cross-Chain Messaging (CCTP), Gas Optimization
 
 ## Experience
 
@@ -28,11 +29,11 @@ on turning research techniques into reliable, reusable AI infrastructure.
 - Implemented model routing, caching, batching, and provider fallbacks, reducing AI infrastructure costs by 61% while maintaining 95%+ task success.
 - Deployed AI workloads on Kubernetes, implementing GPU scheduling, autoscaling, health checks, rolling deployments, and model version management.
 
-**GenAI-Protocol Engineer, NDA** — Jun 2024 – May 2025
-- Optimized Transformer architectures across attention, model size, objectives, and data composition, improving F1 by 12% and reducing inference latency by 31%.
-- Architected hybrid RAG pipelines combining dense retrieval, BM25, metadata filtering, query expansion, and reranking, improving Recall@10 from 60% to 85%.
-- Built LoRA + quantization fine-tuning pipelines for 7B–13B LLMs, reducing trainable parameters by 99%+ while improving domain-task performance by 12%.
+**Protocol Engineer, NDA** — Jun 2024 – May 2025
 - Implemented defense-in-depth for LLM applications using prompt-injection detection, retrieval isolation, tool authorization, output validation, and policy checks.
+- Architected Polymarket-style prediction exchange contracts with deterministic order matching, invariant-safe execution, and settlement state machines sustaining 10k+ daily on-chain trades in production.
+- Authored 300+ Foundry fuzz and invariant tests covering adversarial execution paths including duplicate messages and partial settlement, achieving 97% branch coverage on core protocol contracts.
+- Built cross-chain USDC settlement infrastructure processing 500k+ messages with domain-separated replay protection and invariant-safe execution, sustaining zero failed settlements across all integrated chains.
 
 ## Recent Pull Requests
 
