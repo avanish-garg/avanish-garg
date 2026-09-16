@@ -2,7 +2,7 @@
 
 **Applied AI Engineer** · IST (UTC+5:30) · Open to remote roles
 
-[LinkedIn](https://www.linkedin.com/in/avanish-garg-90562b255/) · [Email](mailto:gargavanish@gmail.com) · [GitHub](https://github.com/avanish-garg) · [X](https://x.com/GARGAVANISH)
+[LinkedIn](https://www.linkedin.com/in/avanish-garg-90562b255/) · [Email](mailto:gargavanish@gmail.com) · [X](https://x.com/GARGAVANISH)
 
 ---
 
