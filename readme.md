@@ -47,7 +47,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[getlago/lago-api]** [feat(coupons): add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _open_
 - **[etcd-io/etcd]** [client/v3: add ResumeMutex to concurrency package](https://github.com/etcd-io/etcd/pull/22384) &mdash; _open_
 
-_Last updated 2026-09-16 10:44 UTC._
+_Last updated 2026-09-17 10:51 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
