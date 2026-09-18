@@ -13,9 +13,11 @@ from datetime import datetime, timezone
 USERNAME = "avanish-garg"
 TRACKED_REPOS = [
     "apache/airflow",
+    "collabora/WhisperLive",
     "etcd-io/etcd",
     "getlago/lago-api",
     "mlflow/mlflow",
+    "truera/trulens",
     "weaviate/weaviate",
 ]
 MAX_ITEMS = 6
