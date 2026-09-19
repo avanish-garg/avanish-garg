@@ -40,14 +40,14 @@ on turning research techniques into reliable, reusable AI infrastructure.
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[truera/trulens]** [feat(cursor): recover token usage from the transcript on stop](https://github.com/truera/trulens/pull/2797) &mdash; _open_
 - **[truera/trulens]** [`fix(bedrock): disclose response_format is not honored, not silently drop it`](https://github.com/truera/trulens/pull/2795) &mdash; _open_
 - **[mlflow/mlflow]** [search_prompts(): add order_by at the client/fluent/genai layers](https://github.com/mlflow/mlflow/pull/25967) &mdash; _open_
 - **[truera/trulens]** [fix: get_leaderboard_aggregates crashes unconditionally with OTel tracing disabled](https://github.com/truera/trulens/pull/2793) &mdash; _open_
 - **[collabora/WhisperLive]** [feat(openvino): enable speaker diarization and translation](https://github.com/collabora/WhisperLive/pull/547) &mdash; _open_
 - **[collabora/WhisperLive]** [fix(openvino): wire initial_prompt and hotwords through to generate()](https://github.com/collabora/WhisperLive/pull/545) &mdash; _open_
-- **[mlflow/mlflow]** [Add `mlflow.restore_experiment()` and `mlflow.restore_run()` to the fluent API](https://github.com/mlflow/mlflow/pull/25852) &mdash; _merged_
 
-_Last updated 2026-09-18 10:26 UTC._
+_Last updated 2026-09-19 10:11 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
