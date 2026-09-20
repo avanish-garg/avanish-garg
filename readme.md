@@ -47,7 +47,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[collabora/WhisperLive]** [feat(openvino): enable speaker diarization and translation](https://github.com/collabora/WhisperLive/pull/547) &mdash; _open_
 - **[collabora/WhisperLive]** [fix(openvino): wire initial_prompt and hotwords through to generate()](https://github.com/collabora/WhisperLive/pull/545) &mdash; _open_
 
-_Last updated 2026-09-19 10:11 UTC._
+_Last updated 2026-09-20 10:29 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
