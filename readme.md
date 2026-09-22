@@ -42,12 +42,12 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 <!-- ACTIVITY:START -->
 - **[truera/trulens]** [feat(cursor): recover token usage from the transcript on stop](https://github.com/truera/trulens/pull/2797) &mdash; _open_
 - **[truera/trulens]** [`fix(bedrock): disclose response_format is not honored, not silently drop it`](https://github.com/truera/trulens/pull/2795) &mdash; _open_
-- **[mlflow/mlflow]** [search_prompts(): add order_by at the client/fluent/genai layers](https://github.com/mlflow/mlflow/pull/25967) &mdash; _open_
+- **[mlflow/mlflow]** [search_prompts(): add order_by at the client/fluent/genai layers](https://github.com/mlflow/mlflow/pull/25967) &mdash; _merged_
 - **[truera/trulens]** [fix: get_leaderboard_aggregates crashes unconditionally with OTel tracing disabled](https://github.com/truera/trulens/pull/2793) &mdash; _open_
 - **[collabora/WhisperLive]** [feat(openvino): enable speaker diarization and translation](https://github.com/collabora/WhisperLive/pull/547) &mdash; _open_
 - **[collabora/WhisperLive]** [fix(openvino): wire initial_prompt and hotwords through to generate()](https://github.com/collabora/WhisperLive/pull/545) &mdash; _open_
 
-_Last updated 2026-09-21 11:48 UTC._
+_Last updated 2026-09-22 10:50 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
