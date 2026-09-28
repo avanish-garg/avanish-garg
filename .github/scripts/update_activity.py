@@ -14,13 +14,20 @@ USERNAME = "avanish-garg"
 TRACKED_REPOS = [
     "apache/airflow",
     "collabora/WhisperLive",
+    "ComposioHQ/composio",
+    "docling-project/docling",
     "etcd-io/etcd",
     "getlago/lago-api",
+    "mastra-ai/mastra",
     "mlflow/mlflow",
     "truera/trulens",
     "weaviate/weaviate",
 ]
 MAX_ITEMS = 6
+# Reserve slots so merged work stays visible instead of being crowded out by a
+# wave of newer open PRs in a pure recency sort - a recruiter skimming this
+# list should see completed, accepted work, not just what's currently pending.
+MIN_MERGED_ITEMS = 3
 START_MARKER = "<!-- ACTIVITY:START -->"
 END_MARKER = "<!-- ACTIVITY:END -->"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "readme.md")
@@ -67,13 +74,28 @@ def main():
             item["_repo"] = repo
         all_items.extend(items)
 
-    all_items.sort(key=lambda i: i["created_at"], reverse=True)
-    top = all_items[:MAX_ITEMS]
+    for item in all_items:
+        item["_state"] = pr_state(item)
+
+    merged_items = [i for i in all_items if i["_state"] == "merged"]
+    other_items = [i for i in all_items if i["_state"] != "merged"]
+    merged_items.sort(key=lambda i: i["pull_request"]["merged_at"], reverse=True)
+    other_items.sort(key=lambda i: i["created_at"], reverse=True)
+
+    # Reserved merged slots first (most recently merged), then fill the rest of
+    # the list with whatever's most recent overall - merged or not.
+    top = merged_items[:MIN_MERGED_ITEMS]
+    selected_ids = {i["id"] for i in top}
+    fill_pool = sorted(
+        (i for i in (merged_items[MIN_MERGED_ITEMS:] + other_items) if i["id"] not in selected_ids),
+        key=lambda i: i["created_at"],
+        reverse=True,
+    )
+    top += fill_pool[: MAX_ITEMS - len(top)]
 
     lines = []
     for item in top:
-        state = pr_state(item)
-        lines.append(f"- **[{item['_repo']}]** [{item['title']}]({item['html_url']}) &mdash; _{state}_")
+        lines.append(f"- **[{item['_repo']}]** [{item['title']}]({item['html_url']}) &mdash; _{item['_state']}_")
 
     if not lines:
         lines = ["- No tracked pull requests found yet."]
