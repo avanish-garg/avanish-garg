@@ -40,14 +40,14 @@ on turning research techniques into reliable, reusable AI infrastructure.
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[truera/trulens]** [fix(langchain): map role="system" messages to SystemMessage, not AIMessage](https://github.com/truera/trulens/pull/2859) &mdash; _merged_
 - **[truera/trulens]** [`fix(bedrock): disclose response_format is not honored, not silently drop it`](https://github.com/truera/trulens/pull/2795) &mdash; _merged_
 - **[docling-project/docling]** [fix(docx): read footnote/endnote body text from the separate OPC parts](https://github.com/docling-project/docling/pull/4374) &mdash; _merged_
-- **[docling-project/docling]** [fix(odf): stop splicing footnote/endnote body text into the citing paragraph](https://github.com/docling-project/docling/pull/4375) &mdash; _merged_
-- **[mastra-ai/mastra]** [fix(evals): check nested steps for trajectory blacklist and redundant calls](https://github.com/mastra-ai/mastra/pull/24930) &mdash; _open_
-- **[ComposioHQ/composio]** [feat(google): make executeToolCall session-aware](https://github.com/ComposioHQ/composio/pull/4572) &mdash; _closed_
-- **[truera/trulens]** [feat(cursor): recover token usage from the transcript on stop](https://github.com/truera/trulens/pull/2797) &mdash; _open_
+- **[weaviate/weaviate]** [feat(backup): expose startedAt/completedAt/size on restore-status response](https://github.com/weaviate/weaviate/pull/13339) &mdash; _open_
+- **[weaviate/weaviate]** [feat(schema): add names filter to REST tenant-list endpoint](https://github.com/weaviate/weaviate/pull/13337) &mdash; _open_
+- **[weaviate/weaviate]** [fix: createBackup returns 422 for duplicate base backup ID, not 500](https://github.com/weaviate/weaviate/pull/13336) &mdash; _open_
 
-_Last updated 2026-09-29 12:00 UTC._
+_Last updated 2026-09-30 11:48 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
