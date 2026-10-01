@@ -43,11 +43,11 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[truera/trulens]** [fix(langchain): map role="system" messages to SystemMessage, not AIMessage](https://github.com/truera/trulens/pull/2859) &mdash; _merged_
 - **[truera/trulens]** [`fix(bedrock): disclose response_format is not honored, not silently drop it`](https://github.com/truera/trulens/pull/2795) &mdash; _merged_
 - **[docling-project/docling]** [fix(docx): read footnote/endnote body text from the separate OPC parts](https://github.com/docling-project/docling/pull/4374) &mdash; _merged_
-- **[weaviate/weaviate]** [feat(backup): expose startedAt/completedAt/size on restore-status response](https://github.com/weaviate/weaviate/pull/13339) &mdash; _open_
-- **[weaviate/weaviate]** [feat(schema): add names filter to REST tenant-list endpoint](https://github.com/weaviate/weaviate/pull/13337) &mdash; _open_
-- **[weaviate/weaviate]** [fix: createBackup returns 422 for duplicate base backup ID, not 500](https://github.com/weaviate/weaviate/pull/13336) &mdash; _open_
+- **[ComposioHQ/composio]** [fix(anthropic): cap prompt-cache breakpoints at one per request](https://github.com/ComposioHQ/composio/pull/4724) &mdash; _open_
+- **[ComposioHQ/composio]** [feat(anthropic): add prompt-caching support to the Python provider](https://github.com/ComposioHQ/composio/pull/4722) &mdash; _open_
+- **[ComposioHQ/composio]** [feat(openai-agents): add strict-mode support to the Python provider](https://github.com/ComposioHQ/composio/pull/4721) &mdash; _open_
 
-_Last updated 2026-09-30 11:48 UTC._
+_Last updated 2026-10-01 12:17 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
