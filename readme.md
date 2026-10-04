@@ -47,7 +47,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[ComposioHQ/composio]** [feat(anthropic): add prompt-caching support to the Python provider](https://github.com/ComposioHQ/composio/pull/4722) &mdash; _open_
 - **[ComposioHQ/composio]** [feat(openai-agents): add strict-mode support to the Python provider](https://github.com/ComposioHQ/composio/pull/4721) &mdash; _open_
 
-_Last updated 2026-10-03 10:59 UTC._
+_Last updated 2026-10-04 11:41 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
