@@ -20,6 +20,7 @@ TRACKED_REPOS = [
     "getlago/lago-api",
     "mastra-ai/mastra",
     "mlflow/mlflow",
+    "qdrant/qdrant",
     "truera/trulens",
     "weaviate/weaviate",
 ]
