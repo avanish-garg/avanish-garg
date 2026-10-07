@@ -21,6 +21,7 @@ TRACKED_REPOS = [
     "mastra-ai/mastra",
     "mlflow/mlflow",
     "qdrant/qdrant",
+    "temporalio/ai-integrations",
     "truera/trulens",
     "weaviate/weaviate",
 ]
