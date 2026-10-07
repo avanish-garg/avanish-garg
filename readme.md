@@ -43,11 +43,11 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[truera/trulens]** [fix(langchain): map role="system" messages to SystemMessage, not AIMessage](https://github.com/truera/trulens/pull/2859) &mdash; _merged_
 - **[truera/trulens]** [`fix(bedrock): disclose response_format is not honored, not silently drop it`](https://github.com/truera/trulens/pull/2795) &mdash; _merged_
 - **[docling-project/docling]** [fix(docx): read footnote/endnote body text from the separate OPC parts](https://github.com/docling-project/docling/pull/4374) &mdash; _merged_
+- **[mlflow/mlflow]** [Add presigned upload URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26517) &mdash; _open_
+- **[mlflow/mlflow]** [Add presigned download URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26516) &mdash; _open_
 - **[qdrant/qdrant]** [feat: add a public gRPC Quotas service (parity with GET/PUT /quotas)](https://github.com/qdrant/qdrant/pull/10969) &mdash; _open_
-- **[qdrant/qdrant]** [fix: sync GRPC_ENDPOINT_WHITELIST with its REST metrics sibling](https://github.com/qdrant/qdrant/pull/10968) &mdash; _open_
-- **[ComposioHQ/composio]** [fix(anthropic): cap prompt-cache breakpoints at one per request](https://github.com/ComposioHQ/composio/pull/4724) &mdash; _open_
 
-_Last updated 2026-10-06 12:38 UTC._
+_Last updated 2026-10-07 12:31 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
