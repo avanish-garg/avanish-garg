@@ -45,9 +45,9 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[docling-project/docling]** [fix(docx): read footnote/endnote body text from the separate OPC parts](https://github.com/docling-project/docling/pull/4374) &mdash; _merged_
 - **[mlflow/mlflow]** [Add presigned upload URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26517) &mdash; _open_
 - **[mlflow/mlflow]** [Add presigned download URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26516) &mdash; _open_
-- **[qdrant/qdrant]** [feat: add a public gRPC Quotas service (parity with GET/PUT /quotas)](https://github.com/qdrant/qdrant/pull/10969) &mdash; _open_
+- **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _open_
 
-_Last updated 2026-10-07 12:31 UTC._
+_Last updated 2026-10-08 12:41 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
