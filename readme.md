@@ -40,14 +40,14 @@ on turning research techniques into reliable, reusable AI infrastructure.
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[temporalio/ai-integrations]** [Preserve FunctionTool metadata and fail fast on unsupported tools](https://github.com/temporalio/ai-integrations/pull/54) &mdash; _merged_
 - **[truera/trulens]** [fix(langchain): map role="system" messages to SystemMessage, not AIMessage](https://github.com/truera/trulens/pull/2859) &mdash; _merged_
 - **[truera/trulens]** [`fix(bedrock): disclose response_format is not honored, not silently drop it`](https://github.com/truera/trulens/pull/2795) &mdash; _merged_
-- **[docling-project/docling]** [fix(docx): read footnote/endnote body text from the separate OPC parts](https://github.com/docling-project/docling/pull/4374) &mdash; _merged_
 - **[mlflow/mlflow]** [Add presigned upload URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26517) &mdash; _open_
 - **[mlflow/mlflow]** [Add presigned download URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26516) &mdash; _open_
 - **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _open_
 
-_Last updated 2026-10-08 12:41 UTC._
+_Last updated 2026-10-09 12:28 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
