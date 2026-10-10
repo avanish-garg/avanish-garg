@@ -47,7 +47,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[mlflow/mlflow]** [Add presigned download URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26516) &mdash; _open_
 - **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _open_
 
-_Last updated 2026-10-09 12:28 UTC._
+_Last updated 2026-10-10 11:47 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
