@@ -40,14 +40,14 @@ on turning research techniques into reliable, reusable AI infrastructure.
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _merged_
 - **[ComposioHQ/composio]** [feat(anthropic): add prompt-caching support to the Python provider](https://github.com/ComposioHQ/composio/pull/4722) &mdash; _merged_
 - **[ComposioHQ/composio]** [feat(openai-agents): add strict-mode support to the Python provider](https://github.com/ComposioHQ/composio/pull/4721) &mdash; _merged_
-- **[ComposioHQ/composio]** [fix(anthropic): cap prompt-cache breakpoints at one per request](https://github.com/ComposioHQ/composio/pull/4724) &mdash; _merged_
+- **[docling-project/docling]** [fix(md): keep Markdown content intact around HTML blocks](https://github.com/docling-project/docling/pull/4848) &mdash; _open_
+- **[temporalio/ai-integrations]** [Return invalid tool arguments to the model instead of failing the workflow](https://github.com/temporalio/ai-integrations/pull/92) &mdash; _open_
 - **[mlflow/mlflow]** [Add presigned upload URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26517) &mdash; _open_
-- **[mlflow/mlflow]** [Add presigned download URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26516) &mdash; _open_
-- **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _open_
 
-_Last updated 2026-10-14 11:02 UTC._
+_Last updated 2026-10-15 10:45 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
