@@ -47,7 +47,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[temporalio/ai-integrations]** [Return invalid tool arguments to the model instead of failing the workflow](https://github.com/temporalio/ai-integrations/pull/92) &mdash; _open_
 - **[mlflow/mlflow]** [Add presigned upload URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26517) &mdash; _open_
 
-_Last updated 2026-10-15 10:45 UTC._
+_Last updated 2026-10-16 10:32 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
