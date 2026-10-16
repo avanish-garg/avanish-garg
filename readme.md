@@ -35,6 +35,29 @@ on turning research techniques into reliable, reusable AI infrastructure.
 - Authored 300+ Foundry fuzz and invariant tests covering adversarial execution paths including duplicate messages and partial settlement, achieving 97% branch coverage on core protocol contracts.
 - Built cross-chain USDC settlement infrastructure processing 500k+ messages with domain-separated replay protection and invariant-safe execution, sustaining zero failed settlements across all integrated chains.
 
+## Open Source Contributions
+
+Pull requests across the AI/ML and infrastructure projects below (merged and currently open; counts update automatically).
+
+<!-- REPOS:START -->
+| Repository | Merged | Open | Focus |
+| --- | ---: | ---: | --- |
+| [ComposioHQ/composio](https://github.com/ComposioHQ/composio/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript) |
+| [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
+| [docling-project/docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Office backends: DOCX/ODF footnotes, PPTX formatting and hyperlinks |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Experiment and run restore, prompt search ordering, GCS/Azure presigned URLs |
+| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume |
+| [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
+| [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
+| [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Listener hooks for task retries and DAG pause state |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | OpenVINO backend: prompts, hotwords, diarization |
+| [etcd-io/etcd](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | etcdctl watch --from-key, concurrency.ResumeMutex |
+| [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Coupon and add-on lifecycle webhooks |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | exec: provider argument quoting, unquoted YAML dates in config and test files |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | gRPC metrics whitelist, public gRPC Quotas service |
+<!-- REPOS:END -->
+
 ## Recent Pull Requests
 
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
@@ -43,11 +66,11 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _merged_
 - **[ComposioHQ/composio]** [feat(anthropic): add prompt-caching support to the Python provider](https://github.com/ComposioHQ/composio/pull/4722) &mdash; _merged_
 - **[ComposioHQ/composio]** [feat(openai-agents): add strict-mode support to the Python provider](https://github.com/ComposioHQ/composio/pull/4721) &mdash; _merged_
-- **[docling-project/docling]** [fix(md): keep Markdown content intact around HTML blocks](https://github.com/docling-project/docling/pull/4848) &mdash; _open_
-- **[temporalio/ai-integrations]** [Return invalid tool arguments to the model instead of failing the workflow](https://github.com/temporalio/ai-integrations/pull/92) &mdash; _open_
-- **[mlflow/mlflow]** [Add presigned upload URL support for GCS and Azure Blob artifact repos](https://github.com/mlflow/mlflow/pull/26517) &mdash; _open_
+- **[promptfoo/promptfoo]** [fix(util): keep unquoted YAML dates when loading config and test files](https://github.com/promptfoo/promptfoo/pull/11776) &mdash; _open_
+- **[promptfoo/promptfoo]** [fix(providers): parse quoted exec arguments like a shell](https://github.com/promptfoo/promptfoo/pull/11774) &mdash; _open_
+- **[lancedb/lancedb]** [fix: keep tagged versions when pruning in optimize](https://github.com/lancedb/lancedb/pull/4544) &mdash; _open_
 
-_Last updated 2026-10-16 10:32 UTC._
+_Last updated 2026-10-16 13:29 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
