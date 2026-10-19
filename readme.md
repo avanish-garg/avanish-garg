@@ -48,11 +48,11 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 | [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Experiment and run restore, prompt search ordering, GCS/Azure presigned URLs |
 | [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume |
 | [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
+| [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Coupon and add-on lifecycle webhooks |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | OpenVINO backend: prompts, hotwords, diarization |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
 | [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Listener hooks for task retries and DAG pause state |
-| [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | OpenVINO backend: prompts, hotwords, diarization |
 | [etcd-io/etcd](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | etcdctl watch --from-key, concurrency.ResumeMutex |
-| [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Coupon and add-on lifecycle webhooks |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | exec: provider argument quoting, unquoted YAML dates in config and test files |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | gRPC metrics whitelist, public gRPC Quotas service |
@@ -63,14 +63,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
-- **[temporalio/ai-integrations]** [Support resuming RunState inside workflows](https://github.com/temporalio/ai-integrations/pull/55) &mdash; _merged_
-- **[ComposioHQ/composio]** [feat(anthropic): add prompt-caching support to the Python provider](https://github.com/ComposioHQ/composio/pull/4722) &mdash; _merged_
-- **[ComposioHQ/composio]** [feat(openai-agents): add strict-mode support to the Python provider](https://github.com/ComposioHQ/composio/pull/4721) &mdash; _merged_
+- **[getlago/lago-api]** [feat(coupons): Add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _merged_
+- **[getlago/lago-api]** [feat(add_ons): Add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _merged_
+- **[collabora/WhisperLive]** [fix(openvino): wire initial_prompt and hotwords through to generate()](https://github.com/collabora/WhisperLive/pull/545) &mdash; _merged_
 - **[promptfoo/promptfoo]** [fix(util): keep unquoted YAML dates when loading config and test files](https://github.com/promptfoo/promptfoo/pull/11776) &mdash; _open_
 - **[promptfoo/promptfoo]** [fix(providers): parse quoted exec arguments like a shell](https://github.com/promptfoo/promptfoo/pull/11774) &mdash; _open_
 - **[lancedb/lancedb]** [fix: keep tagged versions when pruning in optimize](https://github.com/lancedb/lancedb/pull/4544) &mdash; _open_
 
-_Last updated 2026-10-18 10:16 UTC._
+_Last updated 2026-10-19 11:54 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
