@@ -70,7 +70,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[promptfoo/promptfoo]** [fix(providers): parse quoted exec arguments like a shell](https://github.com/promptfoo/promptfoo/pull/11774) &mdash; _open_
 - **[lancedb/lancedb]** [fix: keep tagged versions when pruning in optimize](https://github.com/lancedb/lancedb/pull/4544) &mdash; _open_
 
-_Last updated 2026-10-20 10:50 UTC._
+_Last updated 2026-10-21 11:02 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
