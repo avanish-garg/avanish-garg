@@ -7,6 +7,7 @@ REST search API; writes only to readme.md.
 import json
 import os
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -62,6 +63,9 @@ REPOS_START = "<!-- REPOS:START -->"
 REPOS_END = "<!-- REPOS:END -->"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "readme.md")
 
+# This account's PR history only grows, so far fewer tracked PRs than this means the
+# search returned a partial result and the README must not be rewritten from it.
+MIN_EXPECTED_PRS = 40
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 
@@ -74,11 +78,48 @@ def api_get(url):
         return json.load(resp)
 
 
-def fetch_prs_for_repo(repo):
-    q = f"is:pr author:{USERNAME} repo:{repo}"
-    url = "https://api.github.com/search/issues?q=" + urllib.parse.quote(q) + "&sort=created&order=desc&per_page=100"
-    data = api_get(url)
-    return data.get("items", [])
+def search_page(page, attempts=4):
+    """One page of this account's PR search. Retries on errors and on results GitHub
+    flags as incomplete, because a burst of searches can return a 200 with missing
+    items, which would silently drop repos from the table."""
+    q = f"is:pr author:{USERNAME}"
+    url = (
+        "https://api.github.com/search/issues?q=" + urllib.parse.quote(q)
+        + f"&sort=created&order=desc&per_page=100&page={page}"
+    )
+    last_error = None
+    for attempt in range(attempts):
+        try:
+            data = api_get(url)
+            if data.get("incomplete_results"):
+                last_error = "incomplete_results"
+            elif page == 1 and not data.get("items"):
+                # GitHub search intermittently answers 200 with zero results and no
+                # incomplete flag; this account always has PRs, so treat it as a miss.
+                last_error = "empty first page"
+            else:
+                return data.get("items", [])
+        except Exception as exc:  # noqa: BLE001 - retried, then surfaced below
+            last_error = str(exc)
+        time.sleep(2 * (attempt + 1))
+    raise RuntimeError(f"search page {page} failed after {attempts} attempts: {last_error}")
+
+
+def fetch_all_prs():
+    """All of this account's PRs in the tracked repos, using one paginated search
+    (a handful of calls) instead of one search per repo."""
+    tracked = {r.lower(): r for r in TRACKED_REPOS}
+    items = []
+    for page in range(1, 11):  # search caps at 1000 results
+        batch = search_page(page)
+        for item in batch:
+            repo = item["repository_url"].split("/repos/", 1)[1]
+            if repo.lower() in tracked:
+                item["_repo"] = tracked[repo.lower()]
+                items.append(item)
+        if len(batch) < 100:
+            break
+    return items
 
 
 def pr_state(item):
@@ -121,15 +162,20 @@ def replace_block(content, start, end, block):
 
 def main():
     all_items = []
-    for repo in TRACKED_REPOS:
+    last_error = None
+    for attempt in range(3):
         try:
-            items = fetch_prs_for_repo(repo)
-        except Exception as exc:  # noqa: BLE001 - one repo's failure shouldn't kill the run
-            print(f"warning: failed to fetch {repo}: {exc}", file=sys.stderr)
-            items = []
-        for item in items:
-            item["_repo"] = repo
-        all_items.extend(items)
+            all_items = fetch_all_prs()
+            if len(all_items) >= MIN_EXPECTED_PRS:
+                break
+            last_error = f"only {len(all_items)} tracked PRs found (expected at least {MIN_EXPECTED_PRS})"
+        except Exception as exc:  # noqa: BLE001
+            last_error = str(exc)
+        time.sleep(5 * (attempt + 1))
+    else:
+        # Never overwrite the README with a partial result.
+        print(f"error: could not fetch pull requests, readme.md left unchanged: {last_error}", file=sys.stderr)
+        sys.exit(1)
 
     for item in all_items:
         item["_state"] = pr_state(item)
