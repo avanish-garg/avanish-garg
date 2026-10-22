@@ -42,20 +42,19 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 <!-- REPOS:START -->
 | Repository | Merged | Open | Focus |
 | --- | ---: | ---: | --- |
-| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 1 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume |
+| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 4 | 0 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume; Gemini permanent-error handling |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript) |
 | [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
 | [docling-project/docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Office backends: DOCX/ODF footnotes, PPTX formatting and hyperlinks |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Experiment and run restore, prompt search ordering, GCS/Azure presigned URLs |
-| [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
 | [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Coupon and add-on lifecycle webhooks |
 | [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | OpenVINO backend: prompts, hotwords, diarization |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
-| [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Listener hooks for task retries and DAG pause state |
 | [etcd-io/etcd](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | etcdctl watch --from-key, concurrency.ResumeMutex |
-| [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | exec: provider argument quoting, unquoted YAML dates in config and test files |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | gRPC metrics whitelist, public gRPC Quotas service |
+| [celery/celery](https://github.com/celery/celery/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 1 | Chord errbacks given as a single signature |
+| [temporalio/sdk-python](https://github.com/temporalio/sdk-python/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 1 | Workflow update validator checks, Annotated parameter hints |
 <!-- REPOS:END -->
 
 ## Recent Pull Requests
@@ -63,14 +62,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[temporalio/ai-integrations]** [Fail fast on permanent HTTP errors from Gemini Interactions, Agents and Files calls](https://github.com/temporalio/ai-integrations/pull/135) &mdash; _merged_
 - **[temporalio/ai-integrations]** [Return invalid tool arguments to the model instead of failing the workflow](https://github.com/temporalio/ai-integrations/pull/92) &mdash; _merged_
 - **[getlago/lago-api]** [feat(coupons): Add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _merged_
-- **[getlago/lago-api]** [feat(add_ons): Add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _merged_
-- **[temporalio/ai-integrations]** [Fail fast on permanent HTTP errors from Gemini Interactions, Agents and Files calls](https://github.com/temporalio/ai-integrations/pull/135) &mdash; _open_
+- **[temporalio/sdk-python]** [Reject async def update validators](https://github.com/temporalio/sdk-python/pull/2005) &mdash; _open_
+- **[celery/celery]** [Fix chord errbacks given as a single signature](https://github.com/celery/celery/pull/10907) &mdash; _open_
 - **[promptfoo/promptfoo]** [fix(util): keep unquoted YAML dates when loading config and test files](https://github.com/promptfoo/promptfoo/pull/11776) &mdash; _open_
-- **[promptfoo/promptfoo]** [fix(providers): parse quoted exec arguments like a shell](https://github.com/promptfoo/promptfoo/pull/11774) &mdash; _open_
 
-_Last updated 2026-10-22 11:01 UTC._
+_Last updated 2026-10-22 16:48 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
