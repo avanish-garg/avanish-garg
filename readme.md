@@ -42,9 +42,9 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 <!-- REPOS:START -->
 | Repository | Merged | Open | Focus |
 | --- | ---: | ---: | --- |
+| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 1 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript) |
 | [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
-| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume |
 | [docling-project/docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Office backends: DOCX/ODF footnotes, PPTX formatting and hyperlinks |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Experiment and run restore, prompt search ordering, GCS/Azure presigned URLs |
 | [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
@@ -66,11 +66,11 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[temporalio/ai-integrations]** [Return invalid tool arguments to the model instead of failing the workflow](https://github.com/temporalio/ai-integrations/pull/92) &mdash; _merged_
 - **[getlago/lago-api]** [feat(coupons): Add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6306) &mdash; _merged_
 - **[getlago/lago-api]** [feat(add_ons): Add lifecycle webhooks](https://github.com/getlago/lago-api/pull/6308) &mdash; _merged_
+- **[temporalio/ai-integrations]** [Fail fast on permanent HTTP errors from Gemini Interactions, Agents and Files calls](https://github.com/temporalio/ai-integrations/pull/135) &mdash; _open_
 - **[promptfoo/promptfoo]** [fix(util): keep unquoted YAML dates when loading config and test files](https://github.com/promptfoo/promptfoo/pull/11776) &mdash; _open_
 - **[promptfoo/promptfoo]** [fix(providers): parse quoted exec arguments like a shell](https://github.com/promptfoo/promptfoo/pull/11774) &mdash; _open_
-- **[lancedb/lancedb]** [fix: keep tagged versions when pruning in optimize](https://github.com/lancedb/lancedb/pull/4544) &mdash; _open_
 
-_Last updated 2026-10-21 11:02 UTC._
+_Last updated 2026-10-22 11:01 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
