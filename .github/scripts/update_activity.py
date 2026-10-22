@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 USERNAME = "avanish-garg"
 TRACKED_REPOS = [
     "apache/airflow",
+    "celery/celery",
     "collabora/WhisperLive",
     "ComposioHQ/composio",
     "docling-project/docling",
@@ -26,12 +27,14 @@ TRACKED_REPOS = [
     "qdrant/qdrant",
     "roboflow/supervision",
     "temporalio/ai-integrations",
+    "temporalio/sdk-python",
     "truera/trulens",
     "weaviate/weaviate",
 ]
 # One-line focus per repo for the summary table (static; edit when a repo gains a new area).
 REPO_NOTES = {
     "apache/airflow": "Listener hooks for task retries and DAG pause state",
+    "celery/celery": "Chord errbacks given as a single signature",
     "collabora/WhisperLive": "OpenVINO backend: prompts, hotwords, diarization",
     "ComposioHQ/composio": "Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript)",
     "docling-project/docling": "Office backends: DOCX/ODF footnotes, PPTX formatting and hyperlinks",
@@ -43,7 +46,8 @@ REPO_NOTES = {
     "promptfoo/promptfoo": "exec: provider argument quoting, unquoted YAML dates in config and test files",
     "qdrant/qdrant": "gRPC metrics whitelist, public gRPC Quotas service",
     "roboflow/supervision": "Mask-hole dataset export, CompactMask.resize parity, CSV export of array data",
-    "temporalio/ai-integrations": "OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume",
+    "temporalio/ai-integrations": "OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume; Gemini permanent-error handling",
+    "temporalio/sdk-python": "Workflow update validator checks, Annotated parameter hints",
     "truera/trulens": "Bedrock and LangChain provider fixes, Cursor token usage",
     "weaviate/weaviate": "Backup API, tenant filtering, reranker config",
 }
