@@ -72,7 +72,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[mlflow/mlflow]** [Preserve NaN logged model metrics in `SqlAlchemyStore`](https://github.com/mlflow/mlflow/pull/27063) &mdash; _closed_
 - **[temporalio/ai-integrations]** [Carry image, document and redacted reasoning bytes across the Strands model and MCP activities](https://github.com/temporalio/ai-integrations/pull/150) &mdash; _open_
 
-_Last updated 2026-10-25 10:34 UTC._
+_Last updated 2026-10-26 12:07 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
