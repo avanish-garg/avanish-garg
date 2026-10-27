@@ -42,14 +42,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 <!-- REPOS:START -->
 | Repository | Merged | Open | Focus |
 | --- | ---: | ---: | --- |
-| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 5 | 2 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume; Gemini permanent-error handling |
+| [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 7 | 1 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume; Gemini permanent-error handling |
 | [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 4 | 0 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript) |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
 | [docling-project/docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Office backends: DOCX/ODF footnotes, PPTX formatting and hyperlinks |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Experiment and run restore, prompt search ordering, GCS/Azure presigned URLs |
 | [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
 | [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Coupon and add-on lifecycle webhooks |
-| [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
 | [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | OpenVINO backend: prompts, hotwords, diarization |
 | [temporalio/sdk-python](https://github.com/temporalio/sdk-python/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 0 | Workflow update validator checks, Annotated parameter hints |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
@@ -65,14 +65,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
-- **[roboflow/supervision]** [fix(vlm): crop Gemini 2.5/3.5 masks to the image when box_2d leaves 0-1000](https://github.com/roboflow/supervision/pull/2793) &mdash; _merged_
-- **[temporalio/sdk-python]** [Reject async def update validators](https://github.com/temporalio/sdk-python/pull/2005) &mdash; _merged_
-- **[temporalio/ai-integrations]** [Apply MCPClient prefix and carry tool annotations in TemporalMCPClient](https://github.com/temporalio/ai-integrations/pull/148) &mdash; _merged_
+- **[lancedb/lancedb]** [fix(python)!: raise on bool(Expr) instead of silently dropping predicates](https://github.com/lancedb/lancedb/pull/4682) &mdash; _merged_
+- **[temporalio/ai-integrations]** [Let Strands recover from model context window overflow in TemporalAgent](https://github.com/temporalio/ai-integrations/pull/146) &mdash; _merged_
+- **[temporalio/ai-integrations]** [Carry binary file content across the Gemini file upload activities](https://github.com/temporalio/ai-integrations/pull/180) &mdash; _merged_
 - **[celery/celery]** [Fix disable_events on a worker started with -E](https://github.com/celery/celery/pull/10942) &mdash; _open_
 - **[mlflow/mlflow]** [Preserve NaN logged model metrics in `SqlAlchemyStore`](https://github.com/mlflow/mlflow/pull/27063) &mdash; _closed_
-- **[temporalio/ai-integrations]** [Carry image, document and redacted reasoning bytes across the Strands model and MCP activities](https://github.com/temporalio/ai-integrations/pull/150) &mdash; _open_
+- **[roboflow/supervision]** [fix(vlm): crop Gemini 2.5/3.5 masks to the image when box_2d leaves 0-1000](https://github.com/roboflow/supervision/pull/2793) &mdash; _merged_
 
-_Last updated 2026-10-26 12:07 UTC._
+_Last updated 2026-10-27 11:29 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
