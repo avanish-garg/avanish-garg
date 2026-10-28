@@ -72,7 +72,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[mlflow/mlflow]** [Preserve NaN logged model metrics in `SqlAlchemyStore`](https://github.com/mlflow/mlflow/pull/27063) &mdash; _closed_
 - **[roboflow/supervision]** [fix(vlm): crop Gemini 2.5/3.5 masks to the image when box_2d leaves 0-1000](https://github.com/roboflow/supervision/pull/2793) &mdash; _merged_
 
-_Last updated 2026-10-27 11:29 UTC._
+_Last updated 2026-10-28 11:59 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
