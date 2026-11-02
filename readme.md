@@ -72,7 +72,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _open_
 - **[temporalio/ai-integrations]** [Carry binary file content across the Gemini file upload activities](https://github.com/temporalio/ai-integrations/pull/180) &mdash; _merged_
 
-_Last updated 2026-11-01 12:33 UTC._
+_Last updated 2026-11-02 14:36 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
