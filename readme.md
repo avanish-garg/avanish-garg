@@ -43,18 +43,18 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 | Repository | Merged | Open | Focus |
 | --- | ---: | ---: | --- |
 | [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 8 | 0 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume; Gemini permanent-error handling |
-| [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 4 | 0 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
+| [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 4 | 4 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
+| [temporalio/sdk-python](https://github.com/temporalio/sdk-python/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Workflow update validator checks, Annotated parameter hints |
 | [docling-project/docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Office backends: DOCX/ODF footnotes, PPTX formatting and hyperlinks |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 2 | Experiment and run restore, prompt search ordering, GCS/Azure presigned URLs |
-| [temporalio/sdk-python](https://github.com/temporalio/sdk-python/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Workflow update validator checks, Annotated parameter hints |
 | [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | OpenVINO backend: prompts, hotwords, diarization |
 | [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Coupon and add-on lifecycle webhooks |
-| [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | OpenVINO backend: prompts, hotwords, diarization |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
-| [celery/celery](https://github.com/celery/celery/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 3 | Chord errbacks given as a single signature |
 | [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Listener hooks for task retries and DAG pause state |
+| [celery/celery](https://github.com/celery/celery/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Chord errbacks given as a single signature |
 | [etcd-io/etcd](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | etcdctl watch --from-key, concurrency.ResumeMutex |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | exec: provider argument quoting, unquoted YAML dates in config and test files |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | gRPC metrics whitelist, public gRPC Quotas service |
@@ -65,14 +65,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[collabora/WhisperLive]** [feat(openvino): enable speaker diarization and translation](https://github.com/collabora/WhisperLive/pull/547) &mdash; _merged_
+- **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _merged_
 - **[temporalio/sdk-python]** [keep aliases and inf/nan when ToJsonOptions is set](https://github.com/temporalio/sdk-python/pull/2039) &mdash; _merged_
-- **[temporalio/ai-integrations]** [Carry image, document and redacted reasoning bytes across the Strands model and MCP activities](https://github.com/temporalio/ai-integrations/pull/150) &mdash; _merged_
-- **[lancedb/lancedb]** [fix(python)!: raise on bool(Expr) instead of silently dropping predicates](https://github.com/lancedb/lancedb/pull/4682) &mdash; _merged_
-- **[celery/celery]** [index tasks by the worker and type known at event time](https://github.com/celery/celery/pull/10988) &mdash; _open_
-- **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _open_
-- **[temporalio/ai-integrations]** [Carry binary file content across the Gemini file upload activities](https://github.com/temporalio/ai-integrations/pull/180) &mdash; _merged_
+- **[roboflow/supervision]** [fix(detection): anchor empty masks at box center for `CENTER_OF_MASS`](https://github.com/roboflow/supervision/pull/2976) &mdash; _open_
+- **[roboflow/supervision]** [fix(key_points): validate data length in `KeyPoints.__setitem__`](https://github.com/roboflow/supervision/pull/2974) &mdash; _open_
+- **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _open_
 
-_Last updated 2026-11-05 13:53 UTC._
+_Last updated 2026-11-20 14:48 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
