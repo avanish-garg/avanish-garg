@@ -52,8 +52,8 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 | [truera/trulens](https://github.com/truera/trulens/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 1 | Bedrock and LangChain provider fixes, Cursor token usage |
 | [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | OpenVINO backend: prompts, hotwords, diarization |
 | [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Coupon and add-on lifecycle webhooks |
+| [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | Listener hooks for task retries and DAG pause state |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
-| [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Listener hooks for task retries and DAG pause state |
 | [celery/celery](https://github.com/celery/celery/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Chord errbacks given as a single signature |
 | [etcd-io/etcd](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | etcdctl watch --from-key, concurrency.ResumeMutex |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | exec: provider argument quoting, unquoted YAML dates in config and test files |
@@ -65,14 +65,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[apache/airflow]** [Document that on_task_instance_failed also fires for retried attempts](https://github.com/apache/airflow/pull/72424) &mdash; _merged_
 - **[collabora/WhisperLive]** [feat(openvino): enable speaker diarization and translation](https://github.com/collabora/WhisperLive/pull/547) &mdash; _merged_
 - **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _merged_
-- **[temporalio/sdk-python]** [keep aliases and inf/nan when ToJsonOptions is set](https://github.com/temporalio/sdk-python/pull/2039) &mdash; _merged_
 - **[roboflow/supervision]** [fix(detection): anchor empty masks at box center for `CENTER_OF_MASS`](https://github.com/roboflow/supervision/pull/2976) &mdash; _open_
 - **[roboflow/supervision]** [fix(key_points): validate data length in `KeyPoints.__setitem__`](https://github.com/roboflow/supervision/pull/2974) &mdash; _open_
 - **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _open_
 
-_Last updated 2026-11-20 14:48 UTC._
+_Last updated 2026-11-21 14:03 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
