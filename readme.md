@@ -72,7 +72,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[roboflow/supervision]** [fix(key_points): validate data length in `KeyPoints.__setitem__`](https://github.com/roboflow/supervision/pull/2974) &mdash; _open_
 - **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _open_
 
-_Last updated 2026-11-22 13:56 UTC._
+_Last updated 2026-11-23 17:11 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
