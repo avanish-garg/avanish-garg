@@ -42,8 +42,8 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 <!-- REPOS:START -->
 | Repository | Merged | Open | Focus |
 | --- | ---: | ---: | --- |
+| [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 8 | 0 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
 | [temporalio/ai-integrations](https://github.com/temporalio/ai-integrations/pulls?q=is%3Apr+author%3Aavanish-garg) | 8 | 0 | OpenAI Agents plugin: tool metadata, tool argument errors, RunState resume; Gemini permanent-error handling |
-| [roboflow/supervision](https://github.com/roboflow/supervision/pulls?q=is%3Apr+author%3Aavanish-garg) | 4 | 4 | Mask-hole dataset export, CompactMask.resize parity, CSV export of array data |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Anthropic prompt caching and OpenAI Agents strict mode (Python), cache-breakpoint fix (TypeScript) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Embedding retry/backoff on permanent errors, optimize() keeping tagged versions |
 | [temporalio/sdk-python](https://github.com/temporalio/sdk-python/pulls?q=is%3Apr+author%3Aavanish-garg) | 3 | 0 | Workflow update validator checks, Annotated parameter hints |
@@ -65,14 +65,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
-- **[apache/airflow]** [Document that on_task_instance_failed also fires for retried attempts](https://github.com/apache/airflow/pull/72424) &mdash; _merged_
-- **[collabora/WhisperLive]** [feat(openvino): enable speaker diarization and translation](https://github.com/collabora/WhisperLive/pull/547) &mdash; _merged_
+- **[roboflow/supervision]** [fix(detection): anchor empty masks at box center for `CENTER_OF_MASS`](https://github.com/roboflow/supervision/pull/2976) &mdash; _merged_
+- **[roboflow/supervision]** [fix(key_points): validate data length in `KeyPoints.__setitem__`](https://github.com/roboflow/supervision/pull/2974) &mdash; _merged_
+- **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _merged_
+- **[roboflow/supervision]** [fix(dataset): keep the train item that float rounding drops in split](https://github.com/roboflow/supervision/pull/2969) &mdash; _merged_
+- **[celery/celery]** [index tasks by the worker and type known at event time](https://github.com/celery/celery/pull/10988) &mdash; _open_
 - **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _merged_
-- **[roboflow/supervision]** [fix(detection): anchor empty masks at box center for `CENTER_OF_MASS`](https://github.com/roboflow/supervision/pull/2976) &mdash; _open_
-- **[roboflow/supervision]** [fix(key_points): validate data length in `KeyPoints.__setitem__`](https://github.com/roboflow/supervision/pull/2974) &mdash; _open_
-- **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _open_
 
-_Last updated 2026-11-23 17:11 UTC._
+_Last updated 2026-11-24 16:53 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
