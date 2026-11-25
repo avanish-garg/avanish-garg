@@ -72,7 +72,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[celery/celery]** [index tasks by the worker and type known at event time](https://github.com/celery/celery/pull/10988) &mdash; _open_
 - **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _merged_
 
-_Last updated 2026-11-24 16:53 UTC._
+_Last updated 2026-11-25 16:41 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
