@@ -53,11 +53,11 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 | [collabora/WhisperLive](https://github.com/collabora/WhisperLive/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | OpenVINO backend: prompts, hotwords, diarization |
 | [getlago/lago-api](https://github.com/getlago/lago-api/pulls?q=is%3Apr+author%3Aavanish-garg) | 2 | 0 | Coupon and add-on lifecycle webhooks |
 | [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | Listener hooks for task retries and DAG pause state |
+| [celery/celery](https://github.com/celery/celery/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | Chord errbacks given as a single signature |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant/pulls?q=is%3Apr+author%3Aavanish-garg) | 1 | 1 | gRPC metrics whitelist, public gRPC Quotas service |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 4 | Backup API, tenant filtering, reranker config |
-| [celery/celery](https://github.com/celery/celery/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | Chord errbacks given as a single signature |
 | [etcd-io/etcd](https://github.com/etcd-io/etcd/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | etcdctl watch --from-key, concurrency.ResumeMutex |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | exec: provider argument quoting, unquoted YAML dates in config and test files |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant/pulls?q=is%3Apr+author%3Aavanish-garg) | 0 | 2 | gRPC metrics whitelist, public gRPC Quotas service |
 <!-- REPOS:END -->
 
 ## Recent Pull Requests
@@ -65,14 +65,14 @@ Pull requests across the AI/ML and infrastructure projects below (merged and cur
 _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflows/update-readme.yml)._
 
 <!-- ACTIVITY:START -->
+- **[qdrant/qdrant]** [fix: sync GRPC_ENDPOINT_WHITELIST with its REST metrics sibling](https://github.com/qdrant/qdrant/pull/10968) &mdash; _merged_
+- **[celery/celery]** [index tasks by the worker and type known at event time](https://github.com/celery/celery/pull/10988) &mdash; _merged_
 - **[roboflow/supervision]** [fix(detection): anchor empty masks at box center for `CENTER_OF_MASS`](https://github.com/roboflow/supervision/pull/2976) &mdash; _merged_
 - **[roboflow/supervision]** [fix(key_points): validate data length in `KeyPoints.__setitem__`](https://github.com/roboflow/supervision/pull/2974) &mdash; _merged_
 - **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _merged_
 - **[roboflow/supervision]** [fix(dataset): keep the train item that float rounding drops in split](https://github.com/roboflow/supervision/pull/2969) &mdash; _merged_
-- **[celery/celery]** [index tasks by the worker and type known at event time](https://github.com/celery/celery/pull/10988) &mdash; _open_
-- **[temporalio/sdk-python]** [create OTel tracer provider once per process](https://github.com/temporalio/sdk-python/pull/2041) &mdash; _merged_
 
-_Last updated 2026-11-25 16:41 UTC._
+_Last updated 2026-11-26 16:15 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
