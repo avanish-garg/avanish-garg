@@ -72,7 +72,7 @@ _Auto-updated by a scheduled GitHub Action — see [workflow](./.github/workflow
 - **[roboflow/supervision]** [fix(detection): stop NMM from merging detections that do not overlap at threshold 0](https://github.com/roboflow/supervision/pull/2972) &mdash; _merged_
 - **[roboflow/supervision]** [fix(dataset): keep the train item that float rounding drops in split](https://github.com/roboflow/supervision/pull/2969) &mdash; _merged_
 
-_Last updated 2026-11-26 16:15 UTC._
+_Last updated 2026-11-27 15:59 UTC._
 <!-- ACTIVITY:END -->
 
 ## Writing
